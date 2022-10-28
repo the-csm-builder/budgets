@@ -19,7 +19,7 @@
 * Check results in AWS Console
 
 ## Coming soon ##
-* Create buget from csv file that gets uploaded to S3, which is a operational efficient way to handle these updates on an ongoing basis.
+* Create buget from csv file that gets uploaded to S3, which operationally a way to handle budget creation, and updates on an ongoing basis without going in the portal, and or learning skills (jsut use excel).
 *   Finance/Product updates spreadsheet.
 *   Add different filter types.
 *   Sends to IT or operations.
