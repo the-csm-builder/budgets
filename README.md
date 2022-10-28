@@ -10,6 +10,7 @@
 
 ### Assumptions: Already have python, and AWS SDK Boto3 installed on laptop ###
 * Download github repo or clone to desktop
+* Install libraries in requirements.txt
 * Csv should be in same directory, if not, move to same directory where the code is stored
 * Open excel, enter your data (test data is fine). In this example, I used filters by service. You could set this up by Tag, to encompass a product or category of products.
 * Open the create-budget.py code, and update account with your information
