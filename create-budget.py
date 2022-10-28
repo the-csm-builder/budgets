@@ -78,8 +78,8 @@ def create_budget_from_csv():
                         },
                         'Subscribers': [
                             {
-                                'SubscriptionType': 'EMAIL',
-                                'Address': 'test@outlook.com'
+                                'SubscriptionType': row['NotificationType'],
+                                'Address': row['Email']
                             },
                         ]
                     },
