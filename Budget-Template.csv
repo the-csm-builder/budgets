@@ -1,0 +1,4 @@
+Order,BudgetName,BudgetAmount,Currency,Filteredby,TimeUnit,BudgetStart,BudgetEnd,BudgetType,CreatedDt,CreatedBy
+0,Co-pilot-Comprehend-budget-v1,5,USD,Comprehend,MONTHLY,2022-09-30 20:00:00-04:00,2022-12-30 19:00:00-05:00,COST,2022-10-27 13:17:10.674000-04:00,Lisa
+1,Co-pilot-Lambda-budget-v1,2,USD,Lambda,MONTHLY,2022-09-30 20:00:00-04:00,2022-12-30 19:00:00-05:00,COST,2022-10-27 13:17:10.674000-04:00,Phil
+2,Co-pilot-Dynamodb,2,USD,DynamoDB,MONTHLY,2022-09-30 20:00:00-04:00,2022-12-30 19:00:00-05:00,COST,10/28/22,Jack
