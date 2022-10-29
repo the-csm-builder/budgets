@@ -16,11 +16,14 @@
 * Open the create-budget.py code, and update account with your information
 * Update email address
 * Save
-* Run python code
+* Run python code [Budgets API links](Budgets — Boto3 Docs 1.25.2 documentation)
 * Check results in AWS Console
 
+### Link to Demo in youtube ###
+* Demo [AWS Budgets with CSV](https://www.youtube.com/watch?v=ApUmqOvZyYc)
+
 ## Coming soon ##
-* Create buget from csv file that gets uploaded to S3, which operationally a way to handle budget creation, and updates on an ongoing basis without going in the portal, and or learning skills (jsut use excel).
+* Create buget from csv file that gets uploaded to S3, which operationally a way to handle budget creation, and updates on an ongoing basis without going in the portal, and or learning skills (just use excel).
 *   Finance/Product updates spreadsheet.
 *   Add different filter types.
 *   Sends to IT or operations.
