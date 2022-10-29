@@ -7,12 +7,13 @@ client = boto3.client('budgets')
 
 # OPEN CSV LOCAL DRIVE
 
+
 def create_budget_from_csv():
     with open('Budget-Template.csv', 'r') as csvfile:
         datareader = csv.DictReader(csvfile)
         for row in datareader:
             response = client.create_budget(
-                AccountId='XXXXXX',
+                AccountId='XXXX',  # Enter your Account ID
                 Budget={
                     'BudgetName': row['BudgetName'],
                     'BudgetLimit': {
@@ -78,8 +79,10 @@ def create_budget_from_csv():
                         },
                         'Subscribers': [
                             {
+                                # Enter column name
                                 'SubscriptionType': row['NotificationType'],
-                                'Address': row['Email']
+                                # enter column name
+                                'Address': row['NotificationEmail']
                             },
                         ]
                     },
