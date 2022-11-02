@@ -27,7 +27,7 @@ def create_budget_from_csv():
                     # }
                     # },
                     'CostFilters': {
-                        'Service': [row['Filteredby']],
+                        'Region': [row['Filteredby']],
                     },
                     # 'CostTypes': {
                     #     'IncludeTax': True|False,

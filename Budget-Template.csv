@@ -1,5 +1,2 @@
-Order,BudgetName,BudgetAmount,Currency,Filteredby,TimeUnit,BudgetStart,BudgetEnd,BudgetType,CreatedDt,CreatedBy,NotificationType,NotificationEmail
-0,Co-pilot-Comprehend-budget,5,USD,Comprehend,MONTHLY,2022-09-30 20:00:00-04:00,2022-12-30 19:00:00-05:00,COST,2022-10-27 13:17:10.674000-04:00,Lisa,EMAIL,TEST@TEST.com
-1,Co-pilot-Lambda-budget,2,USD,Lambda,MONTHLY,2022-09-30 20:00:00-04:00,2022-12-30 19:00:00-05:00,COST,2022-10-27 13:17:10.674000-04:00,Phil,EMAIL,TEST@TEST.com
-2,Co-pilot-Dynamodb,2,USD,DynamoDB,MONTHLY,2022-09-30 20:00:00-04:00,2022-12-30 19:00:00-05:00,COST,10/28/22,Jack,EMAIL,TEST@TEST.com
-3,Co-pilot-S3,5,USD,S3,MONTHLY,2022-09-30 20:00:00-04:00,2022-12-30 19:00:00-05:00,COST,10/29/22,Sam,EMAIL,TEST@TEST.com
+Order,BudgetName,BudgetAmount,Currency,Filteredby,TimeUnit,BudgetStart,BudgetEnd,BudgetType,CreatedDt,CreatedBy,NotificationType,NotificationEmail,,Comments
+0,Co-pilot-Overall,10,USD,us-east-1,MONTHLY,2022-09-30 20:00:00-04:00,2022-12-30 19:00:00-05:00,COST,2022-10-27 13:17:10.674000-04:00,John,EMAIL,jklacyn@amazon.com,,"Expect increase, purchased $12 route 53 domain"
