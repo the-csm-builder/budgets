@@ -24,10 +24,7 @@
 
 ## Coming soon ##
 * Create buget from csv file that gets uploaded to S3, which operationally a way to handle budget creation, and updates on an ongoing basis without going in the portal, and or learning skills (just use excel).
-*   Finance/Product updates spreadsheet.
-*   Add different filter types.
-*   Sends to IT or operations.
-*   IT or operations uploads to bucket in S3.
+*   Budget pipeline deployment integration.
 *   A S3 trigger will run lambda function (serverless compute in the cloud), then create AWS budget.
 *   Move upload file from bucket to a processed bucket in S3.
 
